@@ -19,8 +19,8 @@ int main(int argc, char** argv) {
 
 
     struct timespec sleepTime = {
-        .tv_sec = 0,              // Seconds
-        .tv_nsec = 10000000     // Nanoseconds (500ms)
+        .tv_sec = 0,            // Seconds
+        .tv_nsec = 10000000     // Nanoseconds (10ms)
     };
 
     for (int i = 0; i < 1000; ++i) {
