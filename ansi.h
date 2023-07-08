@@ -18,6 +18,7 @@
 #define ANSI_SCI_EL "\e[I" // Horizontal absolute
 #define ANSI_SCI_SU "\e[J" // Scroll up
 #define ANSI_SCI_SD "\e[K" // Scroll down
+#define ANSI_SCI_CLS "\e[1;1H\e[2J"
 
 // Regular text
 #define ANSI_SGR_BLK "\e[0;30m"
